@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	  <!-- NuGet Package Configuration -->
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>PureDelivery.Common.Configuration</PackageId>
+	  <PackageVersion>1.0.0</PackageVersion>
+	  <Authors>PureDelivery Team</Authors>
+	  <Company>PureDelivery</Company>
+	  <Product>PureDelivery Common</Product>
+	  <Description>Flexible configuration provider for PureDelivery microservices with support for local, remote, hybrid and environment sources</Description>
+	  <PackageTags>configuration;puredelivery;microservices;common;local;remote;hybrid;environment</PackageTags>
+	  <PackageProjectUrl>https://github.com/PureDelivery/PureDelivery.Common.Configuration</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/PureDelivery/PureDelivery.Common.Configuration</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReleaseNotes>Initial release with polymorphic configuration providers</PackageReleaseNotes>
+	  <Copyright>© 2024 PureDelivery. All rights reserved.</Copyright>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+		<PackageReference Include="RestSharp" Version="112.1.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+		<PackageReference Include="System.Text.Json" Version="9.0.7" />
+	</ItemGroup>
+</Project>
