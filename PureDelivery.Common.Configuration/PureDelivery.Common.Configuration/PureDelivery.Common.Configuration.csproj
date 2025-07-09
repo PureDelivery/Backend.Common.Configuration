@@ -8,7 +8,7 @@
 	  <!-- NuGet Package Configuration -->
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageId>PureDelivery.Common.Configuration</PackageId>
-	  <PackageVersion>1.0.0</PackageVersion>
+	  <PackageVersion>1.1.0</PackageVersion>
 	  <Authors>PureDelivery Team</Authors>
 	  <Company>PureDelivery</Company>
 	  <Product>PureDelivery Common</Product>
