@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PureDelivery.Common.Configuration.Models
 {
-    public class GeneralConfig : IConfiguration
+    public class GeneralConfig : IConfiguration<GeneralConfig>
     {
         public ConfigurationSource ConfigSource { get; set; } = ConfigurationSource.Local;
         public Dictionary<string, string> ConfigUrls { get; set; } = new();
